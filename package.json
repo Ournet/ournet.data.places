@@ -1,0 +1,30 @@
+{
+  "name": "ournet.data.places",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ournet data places",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ournet/ournet.data.places.git"
+  },
+  "keywords": [
+    "ournet",
+    "data",
+    "places"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^3.1.3",
+    "joi": "^5.1.0",
+    "ournet.core": "^0.1.8",
+    "vogels": "2.0.0-rc8"
+  },
+  "publishConfig": {
+    "registry": "https://npm-proxy.fury.io/G4qSJ8SL1vn1TcQvP9KP/dumitru/"
+  }
+}
