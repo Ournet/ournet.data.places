@@ -1,8 +1,8 @@
 {
   "name": "ournet.data.places",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "ournet data places",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -18,9 +18,10 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.1.1",
     "elasticsearch": "^3.1.3",
-    "joi": "^5.1.0",
-    "ournet.core": "^0.1.8",
-    "vogels": "2.0.0-rc8"
+    "lodash": "^4.0.0",
+    "memory-cache": "^0.1.4",
+    "vogels-helpers": "^0.1.3"
   }
 }
