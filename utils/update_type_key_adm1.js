@@ -20,7 +20,7 @@ function start() {
 						console.log('updating region %s', region.name);
 						return control.updatePlace(data)
 							.then(function(result) {
-								console.log('updated region %s', region.name, result.type_key);
+								console.log('updated region %s', region.name, result.type_key, result.type_city, result.type_adm1);
 								return Promise.delay(1000 * 1);
 							});
 					})
