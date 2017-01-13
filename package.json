@@ -1,6 +1,6 @@
 {
   "name": "ournet.data.places",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "ournet data places",
   "main": "./lib/index.js",
   "scripts": {
